@@ -65,9 +65,13 @@
     width: 100%;
   }
   
-  div.menudroite {
-    float:right;
-      font-size: 5px;
+   .menudroite{
+
+    display: flex;
+    justify-content:flex-end;
+    /* align-items:center; */
+    padding-top:5px;
+    
     
   }
   
@@ -153,12 +157,7 @@
     margin-top: 360px;
   } 
   
-  /* .navigation-auto div {
-    border: 2px solid blueviolet;
-    padding: 5px;
-    border-radius: 10px;
-    transition: 1s;
-  } */
+
   
   
   .navigation-auto div:not(last-child) {
@@ -196,11 +195,7 @@
   .row {
     padding-top:120px;
   }
-  .menudroite li a{
-    font-size: 17px;
-    padding-top: 7px;
-  
-  }
+ 
   
   #section1 {
     display: block;

@@ -1,4 +1,4 @@
-hey how u doin
+
 <div id="section1">
     <div class="slider">
       <div class="slides">
