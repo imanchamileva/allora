@@ -6,17 +6,22 @@
   }
 
  
-
+.themenu {
+  display:flex;
+  justify-content: space-between;
+  align-items:center;
+}
  
   
   nav ul {
-    padding : 35px;
+    padding : 45px;
     background-color: rgb(255, 255, 255);
     margin: 0px;
 
   }
   
   nav ul li {
+    
     float: left;
     list-style: none;
     position: relative;
@@ -73,16 +78,17 @@
     width: 100%;
   }
   
-   .menudroite{
+   .menudroite {
 
     display: flex;
     justify-content:flex-end;
     /* align-items:center; */
     /* padding-top:-5px; */
-    
-    
+
   }
-  
+  .menudroite a {
+  margin-top:-15px;
+  }
   
     
    body {
