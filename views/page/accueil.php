@@ -7,7 +7,7 @@
         <input type="radio" name="radio-btn" id="radio3">
 
         <div class="slide first">
-          <img src="public/images/girls-ecriture.png" alt="">
+          <img id="girlswithdress" src="public/images/girls-ecriture.png" alt="">
         </div>
         <div class="slide" id=men>
           <img src="public/images/men2.jpg" alt="">
@@ -30,7 +30,7 @@
       </div>
     </div>
 
-    <script type="text/javascript">
+    <!-- <script type="text/javascript">
       var counter = 1;
       setInterval(function () {
         document.getElementById('radio' + counter).checked = true;
@@ -39,7 +39,7 @@
           counter = 1;
         }
       }, 5000);
-    </script>
+    </script> -->
   </div>
 
   <div class="section2">

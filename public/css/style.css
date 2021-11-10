@@ -1,18 +1,26 @@
 * {
     margin:0;
     padding:0;
+    box-sizing: border-box;
     
   }
+
+ 
+
+ 
+  
   nav ul {
-    padding : 55px;
+    padding : 35px;
     background-color: rgb(255, 255, 255);
     margin: 0px;
+
   }
   
   nav ul li {
     float: left;
     list-style: none;
     position: relative;
+    
   }
   nav ul li a {
   display: block;
@@ -21,7 +29,7 @@
     font-size: 21px;
     text-decoration: none;
     color:rgb(15, 22, 14);
-    
+    /* padding-bottom:15px; */
   }
   
   
@@ -53,7 +61,7 @@
   }
   
   nav ul li {
-    padding: 15px 15px;
+    padding: 25px 15px;
   }
   nav li {
      margin-top: -28px;
@@ -70,7 +78,7 @@
     display: flex;
     justify-content:flex-end;
     /* align-items:center; */
-    padding-top:5px;
+    /* padding-top:-5px; */
     
     
   }
@@ -86,16 +94,17 @@
   } 
   
   .slider {
-    padding-top: 48px;
+    padding-top: 70px;
     width: 800px;
-    height: 550px;
+    height: 800px;
     border-radius: 0px;
     overflow: hidden;
   }
   
   .slides {
+    padding-top:100px;
     width: 500%;
-    height: 500px;
+    height: 600px;
     display: flex;
   }
   .slides input {

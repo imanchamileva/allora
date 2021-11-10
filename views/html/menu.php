@@ -23,13 +23,11 @@
     <span id="loggo">
       <img src="public/images/loggo.png" alt="">
     </span>
-    <div class="menudroite" id="life">
+
+    <span class="menudroite" id="life">
       <li><a href="?section=connexion">Connexion</a></li>
       <li><a href="favoris.html">Favoris</a></li>
       <li><a href="panier.html">Panier</a></li>
-    </div>
+    </span>
   </ul>
 </nav>
-<div id="banniere">
-  <img src="public/images/petit.png" alt="">
-</div>
